@@ -1,0 +1,7 @@
+.landing__container{
+    *margin-top: 45px;
+    width: 100%;
+    height: 93vh;
+    border-radius: 30px;
+    background: linear-gradient(-90deg, #fce7f6 0%, #e3eaf8 100%);
+}

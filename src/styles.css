@@ -1,1 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root{
+
+    --header-height: 3rem;
+
+    /* ======= Colores de la marca ====== */
+    --first-color: #2aa2a2;
+    --first-color-alterno: #fd7500;
+    --second-color: #127a7b;
+    --first-grey: #1b242b;
+    --second-grey: rgba(0, 0, 0, 0.16);
+    --third-grey: #4d4d4d;
+    --fourth-grey: #D4D8D8;
+    --second-grey-rgba: rgba(247, 247, 247, 0.274);
+    --first-grey-altern: #f6f6f7;
+    --first-grey-altern-rgba: rgba(246, 246, 247, 0.30);
+    --white: #fff;
+
+    /* =========== Font and Typography ======= */
+    --body-font: 'Open Sans', sans-serif;
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+
+    /* =========== Font Weight ======= */
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    /* =========== margenes ======= */
+    --mb-1: .5rem;    
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;    
+    --mb-6: 3rem;  
+    --mb-7: 4rem;
+    /* =========== Padding ========= */
+    --p-2-5: 2.5rem;
+    --p-1-5: 1.5rem;
+    --p-1-0: 1rem;
+    --p-0-8: 0.8rem;
+    --p-0-5: 0.5rem;
+    --p-0-4: 0.4rem;
+    --p-0-3: 0.3rem;
+
+
+    /* =========== z index ======= */
+    --z-tooltip: 10;
+    --z-fixed: 100; 
+
+    /* =========== box shadow's ======= */
+    --box-shadow1: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    --smooth-box-shadow: 0px -16px 77px 0px rgba(0, 0, 0, 0.3);
+    --second-smooth-boxshadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    --first-box-shadow: 0px 5px 5px 5px rgb(0 0 0 / 30%);
+    --text-shodw-bottom: 0px 11px 17px rgba(27,36,43,0.52);
+}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* html, body {
+    height: 100%; 
+    margin: 0;
+} */
+
+body { 
+    margin: 0; 
+    padding: 0;
+    font-family: var(--body-font);
+    /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+}
